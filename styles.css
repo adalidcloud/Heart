@@ -1,0 +1,27 @@
+
+body{
+  background-color: darkgray;
+}
+
+.Colors p:nth-child(1) { 
+  background-color: red;
+  border: 2px solid black;  
+  accent-color: darkgray;
+}
+.Colors p:nth-child(2) {
+  background-color: green;
+  border: 2px solid black;
+  accent-color: darkgray;
+}
+.Colors p:nth-child(3) { 
+  background-color: blue;
+  border: 2px solid black;
+  accent-color: darkgray;
+}
+
+.corazon {
+  width: 150px;
+  height: 130px;
+  background-color: white;
+  clip-path: path("M75 130 C20 85 0 55 0 35 C0 15 15 0 38 0 C55 0 70 10 75 25 C80 10 95 0 112 0 C135 0 150 15 150 35 C150 55 130 85 75 130 Z");
+}

@@ -25,3 +25,14 @@ body{
   background-color: white;
   clip-path: path("M75 130 C20 85 0 55 0 35 C0 15 15 0 38 0 C55 0 70 10 75 25 C80 10 95 0 112 0 C135 0 150 15 150 35 C150 55 130 85 75 130 Z");
 }
+@keyframes latido {
+  0%, 100% { transform: scale(1); }
+  15% { transform: scale(1.15); }
+  30% { transform: scale(1); }
+  45% { transform: scale(1.15); }
+  60% { transform: scale(1); }
+}
+
+.corazon {
+  animation: latido 1.2s infinite;
+}
